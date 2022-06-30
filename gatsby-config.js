@@ -7,24 +7,24 @@ module.exports = {
     // Main Site Title
     title: `Devon Ek | Drupal Developer`,
     // Description that goes under your name in main bio
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit, ipsum.`,
+    description: `Drupal Developer from the Twin-Cities`,
     // Optional: Twitter account handle
     //author: `@rfitzio`,
     // Optional: Github account URL
-    github: `https://github.com/ryanfitzgerald`,
+    github: `https://github.com/Devonjedi`,
     // Optional: LinkedIn account URL
-    linkedin: `https://www.linkedin.com/in/ryanafitzgerald/`,
+    linkedin: `https://www.linkedin.com/in/devon-ek/`,
     // Content of the About Me section
-    about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perferendis porro cumque ea error ab voluptatem. Temporibus adipisci exercitationem similique itaque quibusdam laudantium, qui molestiae quas, aut amet animi id.`,
+    about: `I'm a motivated Drupal Developer who has experience with theming, module development, and site-building. I'm also passionate about open-source contributions and always open to learning something new`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
         name: 'Devfolio',
         description:
-          'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
+          'This website was built using a template created by Ryan Fitzgerald. A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
         link: 'https://github.com/RyanFitzgerald/devfolio',
       },
-      {
+     /*  {
         name: 'ChromeExtensionKit',
         description:
           'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
@@ -35,41 +35,36 @@ module.exports = {
         description:
           'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
         link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
+      }, */
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Acme Corp',
-        description: 'Full-Stack Developer, February 2020 - Present',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
+        name: 'Kanopi Studios',
+        description: 'Junior Drupal Developer, July 2022 - Present',
+        link: 'https://kanopi.com/about-us/',
+      }/* ,
       {
         name: 'Globex Corp',
         description: 'Full-Stack Developer, December 2017 - February 2020',
         link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
-      {
-        name: 'Hooli',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
+      }, */
     ],
     // Optional: List your skills, they must have `name` and `description`.
     skills: [
       {
         name: 'Languages & Frameworks',
         description:
-          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
+          'JavaScript (ES6+), PHP, HTML5, CSS3, SASS',
       },
       {
         name: 'Databases',
-        description: 'MongoDB, PostreSQL, MySQL',
+        description: 'MySQL',
       },
       {
         name: 'Other',
         description:
-          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
+          'Docker DDEV, Drupal, Git, Drush, Composer',
       },
     ],
   },
